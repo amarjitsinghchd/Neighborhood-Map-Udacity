@@ -1,0 +1,142 @@
+html {
+  height: 100%
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.infoWindow {
+    width: 150px;
+}
+
+
+.linkstyle { 
+   color:blue; 
+   text-decoration:underline; 
+   cursor:pointer; 
+   }
+
+/*
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+*/
+
+.nav-item {
+  display: block;
+  min-width: 100px;
+  padding: : 14px;
+}
+
+@media screen and (max-width: 480px)  and (orientation: portrait) {
+
+    body {
+      font-size: 0.7rem;
+    }
+
+  .navbar-min {
+        float: none;
+        min-width: 100%;
+        min-height: 100%;
+      
+    }
+
+  .mapmedia {
+      min-height: 100%;
+      min-width: 100%;
+   }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 481px) and (orientation: portrait){
+
+    body {
+      font-size: 0.9rem;
+    }
+
+  .navbar-min {
+        float: none;
+        min-width: 20%;
+        min-height: 100%;
+       
+    }
+
+    .mapmedia {
+      min-height: 100%;
+      max-width: 80%;
+   }
+}
+
+@media screen and (max-width: 760px)  and (orientation: landscape) {
+
+    body {
+      font-size: 0.7rem;
+    }
+
+  .navbar-min {
+        float: none;
+        min-width: 100%;
+        min-height: 100%;
+      
+    }
+
+  .mapmedia {
+      min-height: 100%;
+      min-width: 100%;
+   }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 761px) and (orientation: landscape){
+
+    body {
+      font-size: 0.5rem;
+      font-weight: 400;
+    }
+
+  .navbar-min {
+        float: none;
+        min-width: 20%;
+        min-height: 100%;
+        /*background-color: yellow; */
+    }
+
+    .mapmedia {
+      min-height: 100%;
+      max-width: 80%;
+   }
+}
+
+img, embed, 
+object, video {
+	max-width: 100%;
+}
+
+nav a {
+	width: 48px;
+	height: 48px;
+  border: black;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+}
